@@ -1,8 +1,24 @@
 {
-  "name": "my-v0-project",
-  "version": "0.1.0",
-  "private": true,
+  "name": "node-email-verifier",
+  "version": "1.0.0",
+  "description": "Node.js application for email deliverability verification using SMTP handshake",
+  "type": "module",
+  "main": "scripts/email-verifier.js",
+  "bin": {
+    "email-verifier": "./scripts/cli.js"
+  },
   "scripts": {
-    "build": "echo 'no build script'"
+    "start": "node scripts/cli.js demo",
+    "demo": "node scripts/cli.js demo",
+    "verify": "node scripts/cli.js verify",
+    "bulk": "node scripts/cli.js bulk",
+    "advanced": "node scripts/advanced-email-verifier.js",
+    "test": "node scripts/cli.js demo --debug"
+  },
+  "keywords": ["email", "verification", "smtp", "deliverability", "validation", "cli"],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
   }
 }

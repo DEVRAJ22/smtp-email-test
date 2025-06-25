@@ -1,0 +1,10 @@
+test@gmail.com
+user@yahoo.com
+admin@outlook.com
+support@hotmail.com
+invalid-email-format
+nonexistent@gmail.com
+test@protonmail.com
+user@icloud.com
+contact@example.com
+info@nonexistentdomain12345.com

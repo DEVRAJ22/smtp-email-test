@@ -1,0 +1,11 @@
+Email,Name,Company
+test@gmail.com,John Doe,Tech Corp
+user@yahoo.com,Jane Smith,Design Co
+admin@outlook.com,Bob Johnson,Marketing Inc
+support@hotmail.com,Alice Brown,Sales Ltd
+invalid-email-format,Invalid User,Bad Data
+nonexistent@gmail.com,Fake User,No Company
+test@protonmail.com,Secure User,Privacy Corp
+user@icloud.com,Apple User,Mobile Inc
+contact@example.com,Example User,Demo Company
+info@nonexistentdomain12345.com,Bad Domain,Error Corp
